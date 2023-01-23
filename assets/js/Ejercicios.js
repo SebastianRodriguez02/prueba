@@ -55,8 +55,8 @@ function TablaMultiplicar() {
     let mensaje="";
     for (let i = 1; i <= 10; i++) {
         let resultadomultiplicacion = factor * i;
-        let msnMultiplicacion=  "( " + factor +" X " + i + ")" + "=" + resultadomultiplicacion +"<br>";
-        mensaje=msnMultiplicacion+mensaje;
+        let msnMultiplicacion=  " " + factor +" X " + i + "" + "=" + resultadomultiplicacion +"<br>";
+        mensaje=mensaje+msnMultiplicacion;
     }
     document.getElementById("resultadosvalidarmutiplicacion").innerHTML=mensaje;
     
