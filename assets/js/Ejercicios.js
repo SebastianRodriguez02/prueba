@@ -48,8 +48,6 @@ function Confirmar () {
 }
 
 
-
-
 function TablaMultiplicar() {
     let factor = document.getElementById("multiplicar").value;
     let mensaje="";
